@@ -304,13 +304,17 @@ ul {
 
 /* animaciones */
 .animacion{
-  transition: opacity, 0.5s;
-  animation-name: aparecer;
+  transition: opacity  0.5s;
+  animation-name: aparecer ;
   animation-duration: 0.75s;
   animation-timing-function: ease;
-
 }
 
+.img-animacion{
+  transition: aparecer 0.5s;
+  animation: aparecer 0.5s , girar 85s linear infinite ;
+ 
+}
 @keyframes aparecer{
   
   0%{
@@ -324,4 +328,17 @@ ul {
   100%{
     opacity: 1;
   }
+}
+@keyframes girar{
+  0%{
+  
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+
 }

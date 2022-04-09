@@ -44,33 +44,44 @@ const construirDest = async (position) =>{
    
 }
 
+const setImgPlanet = (img) => {
+    img.classList.remove('img-animacion');
+    setTimeout(() => {
+    img.classList.add('img-animacion');
+        
+    }, 0);
+}
 
 //eventos
 //destination
 btnMoon.addEventListener('click', () => {
     limpiarSubrayado();
     btnMoon.classList.replace('no-selected','selected')
-    validarAnimacion($imgPlaneta,$name,$description,$distanceNumb,$travelDays,$distanceAvg,$travelTime );
+    validarAnimacion($name,$description,$distanceNumb,$travelDays,$distanceAvg,$travelTime);
+    setImgPlanet($imgPlaneta)
     construirDest(0)
    
 })
 btnMars.addEventListener('click', () => {
     limpiarSubrayado();
     btnMars.classList.replace('no-selected','selected')
-    validarAnimacion($imgPlaneta,$name,$description,$distanceNumb,$travelDays,$distanceAvg,$travelTime );
+    validarAnimacion($name,$description,$distanceNumb,$travelDays,$distanceAvg,$travelTime);
+    setImgPlanet($imgPlaneta)
     construirDest(1)
 })
 
 btnEuropa.addEventListener('click', ()=> {
     limpiarSubrayado();
     btnEuropa.classList.replace('no-selected','selected')
-    validarAnimacion($imgPlaneta,$name,$description,$distanceNumb,$travelDays,$distanceAvg,$travelTime );
+    validarAnimacion($name,$description,$distanceNumb,$travelDays,$distanceAvg,$travelTime);
+    setImgPlanet($imgPlaneta);
     construirDest(2)
 })
 
 btnTitan.addEventListener('click', () => {
     limpiarSubrayado();
     btnTitan.classList.replace('no-selected','selected')
-    validarAnimacion($imgPlaneta,$name,$description,$distanceNumb,$travelDays,$distanceAvg,$travelTime );
+    validarAnimacion($name,$description,$distanceNumb,$travelDays,$distanceAvg,$travelTime);
+    setImgPlanet($imgPlaneta);
     construirDest(3)
 })
