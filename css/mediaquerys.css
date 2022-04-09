@@ -1,0 +1,143 @@
+
+@media(max-width:576px){
+    body{
+        background-image: url("../starter-code/assets/home/background-home-mobile.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    body .navigation .navigation-list{
+        background-color: transparent;
+    }
+    /*destination*/
+    .title-section,.num-section{
+        font-size: 15px;
+    }
+    .distance{
+        width: 100%;
+    }
+    /*crew*/
+    .full-name{
+        font-size: 24px;
+    }
+    .subtitle{
+        font-size: 16px;
+    }
+    .grid-container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-template{
+        display: grid;
+        grid-template-areas: 
+        'title'
+        'img'
+        'descripcion';
+    }
+}
+
+@media(min-width:577px) {
+    body{
+        background: url("../starter-code/assets/home/background-home-tablet.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    body .navigation .navigation-list{
+       background-color: rgb(30, 30, 40);
+       
+    }
+    .title-section , .num-section{
+        font-size: 20px;
+    }
+    .navigation-list li{
+        font-size: 14px;
+    }
+    .distance{
+        width: 450px;
+    }
+    /**/
+    .full-name, .subtitle{
+        font-size: 30px;
+    }
+    .grid-container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-template{
+        display: grid;
+        grid-template-areas: 
+        'title'
+        'img'
+        'descripcion';
+    }
+    .panel.active{
+        transform: translate(100%,0);
+    }
+}
+@media(min-width:992px){
+   body{
+        background-image: url("../starter-code/assets/home/background-home-desktop.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+   }
+   body .navigation .navigation-list{
+    backdrop-filter: blur(50px);
+    background-color: rgba(255, 255, 255, 0.1);
+    gap: 50px;
+   }
+   .main-title{
+    font-size: 30px;
+   }
+   .main-parrafo{
+    max-width: 410px;
+   }
+   .text-space{
+    font-size: 150px;
+   }
+    .circle-exp{
+    width: 300px;
+    height: 300px;
+    } 
+   /*destination*/
+   .title-section , .num-section{
+    font-size: 25px;
+    }
+    .big-text{
+        font-size: 100px;
+    }
+   /*crew*/
+   .full-name{
+    font-size: 56px;
+    }
+    .subtitle{
+    font-size: 32px;
+    }
+    .grid-container{
+        grid-template-rows: 350px 300px;
+        justify-content: start;
+        align-content: center;
+    }
+    .grid-1{
+        grid-row: 1/2;
+    }
+    .grid-2{
+        grid-row: 2/3;
+    }
+ 
+      .grid-template{
+        display: grid;
+        grid-template-areas:
+        'title title' 
+        'descripcion img';
+    }
+}
+
+@media(min-width:1200px){
+    body .navigation .navigation-list{
+        gap: 100px;
+    }
+}

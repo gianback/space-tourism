@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon"type="image/png" sizes="32x32"href="./assets/favicon-32x32.png"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Frontend Mentor | Space tourism website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
+  </head>
+  <body class="body body-destination">
+    <header class="header pt-lg-5 mx-3 m-sm-0 ">
+    
+      <div class="d-flex justify-content-between align-items-center ps-sm-5 ">
+        <img src="starter-code/assets/shared/logo.svg" alt="" />
+        <div class="d-none d-lg-block linea"></div>
+      </div>
+      <nav class="navigation d-flex justify-content-end align-items-center ">
+        <div class="menu d-sm-none">
+
+          <img id="hamburguer" src="starter-code/assets/shared/icon-hamburger.svg" alt="menu" >
+        </div>
+        <ul class="navigation-list d-none d-sm-flex justify-content-around justify-content-lg-center align-items-center m-0 h-100 w-100">
+
+          <li class="no-selected h-100 fw-light d-flex justify-content-between align-items-center gap-2">
+            <a href="index.html" class="enlaces">
+              <span class="d-none d-xxl-inline fw-bold">00</span> HOME
+            </a>
+          </li>
+          <li class="selected h-100 fw-light d-flex justify-content-between align-items-center gap-2">
+            <a href="destination.html" class="enlaces">
+              <span class="d-none d-xxl-inline fw-bold">01</span> DESTINATION
+            </a> 
+          </li>
+          <li class="no-selected h-100 fw-light d-flex justify-content-between align-items-center gap-2">
+            <a href="crew.html" class="enlaces">
+              <span class="d-none d-xxl-inline fw-bold">02</span> CREW
+            </a>
+          </li>
+          <li class="no-selected h-100 fw-light d-flex justify-content-between align-items-center gap-2">
+            <a href="technology.html" class="enlaces">
+              <span class="d-none d-xxl-inline fw-bold">03</span> TECHNOLOGY
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </header>
+    <aside class="panel d-flex justify-content-center align-items-center">
+      <nav>
+        <ul class="d-flex flex-column justify-content-center align-items-start gap-5">
+          <li>
+            <a href="./index.html" class="enlaces">
+              <span class="fw-bold">00</span> HOME
+            </a>
+          </li>
+          <li>
+            <a href="./destination.html" class="enlaces">
+              <span class="fw-bold">01</span> DESTINATION
+            </a> 
+          </li>
+          <li>
+            <a href="./crew.html" class="enlaces">
+              <span class="fw-bold">02</span> CREW
+            </a>
+          </li>
+          <li>
+            <a href="./technology.html" class="enlaces">
+              <span class="fw-bold">03</span> TECHNOLOGY
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="main d-flex justify-content-center align-items-center">
+      <article class="container ">
+        <div class="row">
+          <div class="col-12 col-lg-6  d-flex flex-column justify-content-around align-items-center mt-5 mt-lg-0">
+           
+              <h1 class="title-section"><span class="num-section">01</span>Pick your destination</h1>
+            
+            <img id="img-destination" class=" my-4 my-lg-0" src="starter-code/assets/destination/image-moon.webp" alt="moon" >
+          </div>
+          <div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start gap-5 my-5 my-lg-0">
+            <nav class="w-100">
+              <ul class="d-flex justify-content-center justify-content-lg-start align-items-center gap-4">
+                <li>
+                  <button id="moon" class="botones enlaces-dest selected">Moon</button>
+                </li> 
+                <li>
+                  <button id="mars" class="botones enlaces-dest no-selected">Mars</button>
+                </li>
+                <li>
+                  <button id="europa" class="botones enlaces-dest no-selected">Europa</button>
+                </li>
+                <li>
+                  <button id="titan" class="botones enlaces-dest no-selected">Titan</button>
+                </li>
+              </ul>
+            </nav>
+            <h2 id="name" class="destination-title big-text text-start  text-lg-start">
+              Moon
+            </h2>
+            <p id="description" class="destination-parraf text-center text-lg-start">
+              See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+              regain perspective and come back refreshed. While you’re there, take in some history 
+              by visiting the Luna 2 and Apollo 11 landing sites.
+            </p>
+              <div class="distance d-flex flex-column flex-lg-row justify-content-lg-start align-items-center gap-5">
+                <div class="distance-km">
+                  <h3 id="distance-avg" class="m-0 distance-subtitles text-center text-lg-start">Avg. distance</h3>
+                  <span id="distance-numb" class="distance-numbers text-center text-lg-start text-uppercase">384,400 KM</span>
+                </div>
+                <div class="distance-days d-flex flex-column justify-content-center">
+                  <h3 id="travel-time" class="m-0 distance-subtitles text-center text-lg-start ">Est. travel time</h3>
+                  <span id="travel-days" class="distance-numbers text-center text-lg-start text-uppercase">3 DAYS</span> 
+                </div>
+                
+            </div>
+          </div>
+         
+        </div>
+       
+        
+      </article>
+    </main>
+     
+    <script src="js/destination.js" type="module"></script>
+  </body>
+</html>
+
+
