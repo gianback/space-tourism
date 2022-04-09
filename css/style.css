@@ -1,14 +1,12 @@
 @import url('mediaquerys.css');
 
-
 .body {
   width: 100%;
   min-height: 100vh;
   color: white;
   position: relative;
-  
-  
 }
+
 .botones{
   background-color: transparent;
   border: none;
@@ -82,16 +80,19 @@ ul {
   
 }
 
-.circle-exp{
-  width: 200px;
-  height: 200px;
-}
+
 .explore-link{
   text-decoration: none;
   color: black;
 }
 .explore-link:hover{
   color: black !important;
+}
+.circle-exp{
+  transition: transform 0.5s ease;
+}
+.circle-exp:hover{
+  transform: scale(1.5);
 }
 .circle-exp a{
   font-size: 30px;

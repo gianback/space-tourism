@@ -12,6 +12,10 @@
     .big-text{
         font-size: 70px;
     }
+    .circle-exp{
+        width: 200px;
+        height: 200px;
+    }
     /*destination*/
     .title-section,.num-section{
         font-size: 15px;
@@ -54,6 +58,10 @@
     .title-section , .num-section{
         font-size: 20px;
     }
+    .circle-exp{
+        width: 200px;
+        height: 200px;
+      }
     .big-text{
         font-size: 70px;
     }
@@ -142,6 +150,9 @@
         grid-template-areas:
         'title title' 
         'descripcion img';
+    }
+    .explore-link{
+
     }
 }
 
