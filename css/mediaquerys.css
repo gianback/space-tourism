@@ -9,6 +9,9 @@
     body .navigation .navigation-list{
         background-color: transparent;
     }
+    .big-text{
+        font-size: 70px;
+    }
     /*destination*/
     .title-section,.num-section{
         font-size: 15px;
@@ -50,6 +53,9 @@
     }
     .title-section , .num-section{
         font-size: 20px;
+    }
+    .big-text{
+        font-size: 70px;
     }
     .navigation-list li{
         font-size: 14px;
@@ -94,6 +100,9 @@
    }
    .main-parrafo{
     max-width: 410px;
+   }
+   .big-text{
+       font-size: 150px;
    }
    .text-space{
     font-size: 150px;
