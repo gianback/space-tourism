@@ -306,8 +306,8 @@ ul {
 .animacion{
   transition: opacity  0.5s;
   animation-name: aparecer ;
-  animation-duration: 0.75s;
-  animation-timing-function: ease;
+  animation-duration: 1s;
+  animation-timing-function: linear;
 }
 
 .img-animacion{
