@@ -1,4 +1,4 @@
-@import url('mediaquerys.css');
+@import url("mediaquerys.css");
 
 .body {
   width: 100%;
@@ -7,11 +7,11 @@
   position: relative;
 }
 
-.botones{
+.botones {
   background-color: transparent;
   border: none;
 }
-a:hover{
+a:hover {
   color: white !important;
 }
 
@@ -21,7 +21,6 @@ a:hover{
   display: grid !important;
   grid-template-columns: 40% 60% !important;
   height: 15vh;
-
 }
 ul {
   padding: 0 !important;
@@ -29,9 +28,8 @@ ul {
   margin: 0;
 }
 
-
 .navigation .navigation-list li {
-  letter-spacing: 2px; 
+  letter-spacing: 2px;
 }
 
 .linea {
@@ -43,11 +41,11 @@ ul {
   z-index: 99;
   margin-right: -35px;
 }
-.selected{
+.selected {
   border-bottom: 3px solid white;
   color: white !important ;
 }
-.no-selected{
+.no-selected {
   border-bottom: 3px solid transparent;
 }
 
@@ -59,69 +57,61 @@ ul {
   min-height: 85vh;
 }
 
-.main-title{
+.main-title {
   display: flex;
   flex-direction: column;
   font-size: 18px;
   font-weight: 100;
   text-transform: uppercase;
   color: #d2d8f9;
-  
 }
-.big-text{
+.big-text {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 400;
   color: white;
 }
-.main-parrafo{
+.main-parrafo {
   line-height: 30px;
   color: #d2d8f9;
-  
 }
 
-
-.explore-link{
+.explore-link {
   text-decoration: none;
   color: black;
-}
-.explore-link:hover{
-  color: black !important;
-}
-.circle-exp{
+
+  font-weight: 600;
+  border-radius: 50%;
   transition: transform 0.5s ease;
 }
-.circle-exp:hover{
+
+.explore-link:hover {
   transform: scale(1.5);
-}
-.circle-exp a{
-  font-size: 30px;
-  font-weight: 600;
+  color: black !important;
 }
 
 /*FIN MAIN*/
 
-.num-section{
+.num-section {
   color: rgb(67, 65, 65);
   text-align: center;
   font-weight: bold;
   letter-spacing: 4.725px;
   margin-right: 10px;
 }
-.title-section{
+.title-section {
   letter-spacing: 4.725px;
   text-transform: uppercase;
   color: white;
   text-align: center;
   font-weight: 400;
-  
 }
-.enlaces{
- color: white;
- text-decoration: none;
- cursor: pointer;
+.enlaces {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
-.enlaces-dest{
+.enlaces-dest {
   text-decoration: none;
   padding: 1rem 0;
   text-transform: uppercase;
@@ -129,216 +119,199 @@ ul {
   color: #d2d8f9;
 }
 
-.body-destination{
-  background: url('../starter-code/assets/destination/background-destination-desktop.jpg');
+.body-destination {
+  background: url("../starter-code/assets/destination/background-destination-desktop.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-#img-destination{
+#img-destination {
   max-width: 60%;
 }
-.big-text{
+.big-text {
   margin: 0;
 }
-.destination-parraf{
+.destination-parraf {
   max-width: 450px;
   min-height: 120px;
   line-height: 30px;
   margin: 0;
   color: #d2d8f9;
- 
 }
-.distance{
-  border-top: 1px solid rgb(255, 255, 255,.25) ;
+.distance {
+  border-top: 1px solid rgb(255, 255, 255, 0.25);
   padding: 15px 0;
 }
 
-
-.distance-subtitles{
+.distance-subtitles {
   color: #d2d8f9;
   font-size: 14px;
   text-transform: uppercase;
 }
-.distance-numbers{
+.distance-numbers {
   font-size: 28px;
 }
 
-
 /*Crew*/
-.btn-slider{
+.btn-slider {
   border-radius: 50%;
   border: none;
   padding: 10px;
   background-color: rgb(130, 126, 126);
 }
-.btn-slider:hover{
- opacity: 0.5;
+.btn-slider:hover {
+  opacity: 0.5;
 }
-.btn-selected{
+.btn-selected {
   background-color: white;
 }
 
-.body-crew{
-  background: url('../starter-code/assets/crew/background-crew-desktop.jpg');
+.body-crew {
+  background: url("../starter-code/assets/crew/background-crew-desktop.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.subtitle{
-
-  color: #FFFFFF80;
+.subtitle {
+  color: #ffffff80;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 3px;
 }
-.full-name{
-
+.full-name {
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 3px;
-
 }
-.about-him{
+.about-him {
   color: #d2d8f9;
   max-width: 470px;
   line-height: 30px;
   min-height: 120px;
 }
-.img-min{
+.img-min {
   max-width: 60%;
 }
-.btns-container{
+.btns-container {
   align-self: flex-start;
 }
 
-.grid-1{
-
+.grid-1 {
   display: grid;
   align-content: space-around;
-
 }
-.grid-2{
- align-self: center;
+.grid-2 {
+  align-self: center;
 }
 
 /*technology*/
-.body-tech{
-  background: url('../starter-code/assets/technology/background-technology-desktop.jpg');
+.body-tech {
+  background: url("../starter-code/assets/technology/background-technology-desktop.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-
-.btn-tech{
+.btn-tech {
   height: 80px;
   width: 80px;
   border: 0.5px solid white;
   border-radius: 50%;
   color: white;
   font-size: 30px;
-  
 }
-.btn-tech-container{
+.btn-tech-container {
   gap: 15px;
 }
-.btn-tech-selected{
+.btn-tech-selected {
   background-color: white;
   color: black;
-
 }
-.grid-title{
+.grid-title {
   grid-area: title;
 }
-.grid-description{
+.grid-description {
   grid-area: descripcion;
   gap: 30px;
 }
-.grid-img{
+.grid-img {
   grid-area: img;
 }
-.bio-tech{
+.bio-tech {
   max-width: 450px;
   min-height: 180px;
   color: #d2d8f9;
   line-height: 30px;
 }
-.subtitle-tech{
+.subtitle-tech {
   font-size: 16px;
   text-transform: uppercase;
   color: #d2d8f9;
   letter-spacing: 2px;
 }
-.menu, #hamburguer{
+.menu,
+#hamburguer {
   z-index: 99;
 }
-#hamburguer{
+#hamburguer {
   cursor: pointer;
 }
-.panel{
+.panel {
   position: fixed;
   top: 0;
   bottom: 0;
   left: 30%;
   right: 0;
-  background-color: rgba(0, 0,0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(20px);
-  z-index: 2; 
+  z-index: 2;
   font-weight: 700;
-  transform: translate(100%,0);
+  transform: translate(100%, 0);
   transition: transform 0.5s ease;
 }
-.panel.active{
-  transform: translate(0,0);
+.panel.active {
+  transform: translate(0, 0);
 }
-.panel > .enlaces{
+.panel > .enlaces {
   padding: 10px 0;
 }
-.panel .enlaces:hover{
+.panel .enlaces:hover {
   border-bottom: 1px solid rgb(113, 113, 113);
 }
 
-
-
-
 /* animaciones */
-.animacion{
-  transition: opacity  0.5s;
-  animation-name: aparecer ;
+.animacion {
+  transition: opacity 0.5s;
+  animation-name: aparecer;
   animation-duration: 1s;
   animation-timing-function: linear;
 }
 
-.img-animacion{
+.img-animacion {
   transition: aparecer 0.5s;
-  animation: aparecer 0.5s , girar 85s linear infinite ;
- 
+  animation: aparecer 0.5s, girar 85s linear infinite;
 }
-@keyframes aparecer{
-  
-  0%{
+@keyframes aparecer {
+  0% {
     opacity: 0;
   }
- 
-  50%{
+
+  50% {
     opacity: 0.5;
   }
 
-  100%{
+  100% {
     opacity: 1;
   }
 }
-@keyframes girar{
-  0%{
-  
+@keyframes girar {
+  0% {
     transform: rotate(0deg);
   }
-  50%{
+  50% {
     transform: rotate(180deg);
   }
-  100%{
+  100% {
     transform: rotate(360deg);
   }
-
 }
